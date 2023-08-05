@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portofolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <!--header section starts-->
+    <header>
+        <div class="user">
+            <img src="images/suba.jpg" alt="">
+            <h3 class="name">Subaharini</h3>
+            <p class="post">Front-End Developer</p>
+        </div>
+
+        <nav class="navbar">
+            <ul>
+                <li>
+                    <a href="#home">home</a>
+                </li>
+                <li>
+                    <a href="#about">about</a>
+                </li>
+                <li>
+                    <a href="#education">education</a>
+                </li>
+                <li>
+                    <a href="#contact">contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!--header section ends-->
+
+    <!--content section starts-->
+    <div class="container">
+        <section class="home" id="home">
+            <h3>hi there...</h3>
+            <h3 class="name">my name is <span>Subaharini</span></h3>
+            <h3 class="post">i am a <span class="typing-text">front end developer</span></h3>
+            <a href="#"><button class="btn">hire me</button></a>
+            <div class="share">
+                <a target="_blank" href="#" class="fa fa-facebook-f"></a>
+                <a target="_blank" href="https://instagram.com/s_u_b_a_h_a_r_i_n_i?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D " class="fa fa-instagram"></a>
+                <a target="_blank" href="https://twitter.com/S_u_b_a_harini?t=sX78Z2Src2DO94Wq22iiwQ&s=09" class="fa fa-twitter"></a>
+                <a target="_blank" href="https://www.linkedin.com/in/subaharini-r-ba2116251" class="fa fa-linkedin"></a>
+            </div>
+            
+        </section>
+        <!--about section-->
+        <section class="about" id="about">
+            <h1 class="heading">about me</h1>
+            <div class="content">
+                <h3 class="name">my name is <span>Subaharini</span></h3>
+                
+                <p>To gain practical experience and enhance my technical skills in order to contribute effectively to the development of innovative software solutions. I aim to work collaboratively with a team to solve complex problems and deliver high-quality products that meet client needs.</p>
+            
+            </div>
+            <div class="skills">
+                <div class="progress">
+                    <h3>html<span>95%</span></h3>
+                    <div class="bar"><span></span></div>
+                </div>
+                <div class="progress">
+                    <h3>css <span>85%</span></h3>
+                    <div class="bar"><span></span></div>
+                </div>
+                <div class="progress">
+                    <h3>javascript<span>65%</span></h3>
+                    <div class="bar"><span></span></div>
+                </div>
+            </div>
+        </section>
+        <!--education section-->
+        <section class="education" id="education">
+            <h1 class="heading">my education</h1>
+            <div class="box-container">
+                <div class="box">
+                    <div class="year">2017-2018</div>
+                    <h3>SSLC</h3>
+                    <p>I finished my SSLC with 87.5% in Holy Cross Girls Higher Secondary School</p>
+                </div>
+                <div class="box">
+                    <div class="year">2019-2020</div>
+                    <h3>SSLC</h3>
+                    <p>I finished my HSC with 94.8% in Holy Cross Girls Higher Secondary School</p>
+                </div>
+                <div class="box">
+                    <div class="year">2020-2023</div>
+                    <h3>SSLC</h3>
+                    <p>I am pursuing bachelor in ECE with 8.82 till 5th semester in National Engineering College</p>
+                </div>
+            </div>
+        </section>
+        <!--contact section-->
+        <section class="contact" id="contact">
+            <h1 class="heading">contact me</h1>
+            <div class="row">
+                <form action="">
+                    <input type="text" class="box" placeholder="first name">
+                    <input type="text" class="box" placeholder="last name">
+                    <input type="email" class="box" placeholder="your email">
+                    <input type="text" class="box" placeholder="your project">
+                    <textarea name="" id="" cols="30" rows="10" class="box message"
+                    placeholder="message"></textarea>
+                    <input type="submit" value="message" class="btn">
+                </form>
+            <div style="display: flex;flex-direction: column;align-items:first baseline;margin-left:20px">
+                <div class="content">
+                    <div class="icons">
+                        <h3><i class="fa fa-map-marker"></i>address</h3>
+                        <p>tamilnadu,india 628006</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="icons">
+                        <h3><i class="fa fa-envelope"></i>email</h3>
+                        <p>subahariniramasamy@gmail.com</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="icons">
+                        <h3><i class="fa fa-phone"></i>phone</h3>
+                        <p>91+ 9003509278</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+          
+        </section>
+    </div>
+    <!--content section ends-->
+     
+    <!--type.js cdn link-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.js"></script>
+
+    <script>
+         var type = new Typed('.typing-text',{
+            strings:['software engineer','front end developer'],
+            typeSpeed:200,
+            loop:true
+         });
+    </script>
+</body>
+</html>
